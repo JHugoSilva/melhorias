@@ -1,0 +1,49 @@
+.card {
+    max-width: 150px;
+    font-size: 0.75rem;
+}
+
+.card h5 {
+    font-size: 1rem;
+}
+
+.card div.card-body {
+    padding: 0.75rem;
+}
+
+.card a.btn {
+    font-size: 0.75rem;
+    padding: 0.25rem;
+    max-width: 50px;
+}
+
+table.table tr > * {
+    padding: 0.5rem;
+}
+
+table.table tr > *.table-primary {
+    background-color: #1b6ec8;
+}
+
+table.table tr > *.table-danger {
+    background-color: #fb4054;
+}
+
+table#melhorias {
+    width: initial;
+}
+
+div.separador-texto-combos {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 0.75rem 0.75rem;
+}
+
+div#agenda form {
+    margin: 50px auto 0 auto;
+}
+
+div#agenda form > button#btn_buscar {
+    margin: 0 auto;
+    display: block;
+}

@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  database:
+    image: postgres:9.4
+    volumes:
+      - ./database/:/home
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 
+
+  web:
+    ports:
+      - "8056:80"
+    build:
+      context: ./Dockerfiles/php-apache
+    volumes:
+      - ./:/var/www/html/
+    depends_on:
+      - database

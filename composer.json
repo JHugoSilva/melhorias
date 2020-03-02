@@ -1,0 +1,10 @@
+{
+    "require": {
+        "rafaelnery/phputils": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DAO\\": "dao"
+        }
+    }
+}
